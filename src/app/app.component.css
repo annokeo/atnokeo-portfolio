@@ -6,7 +6,7 @@ body {
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-    background-color: #3333ff;
+    background-color: #ffffff;
     color: #ffffff;
   }
   .bg-2 {
@@ -35,5 +35,5 @@ body {
     letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-    color:#3333ff !important;
+    color:#FA4444 !important;
   }
