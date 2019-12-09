@@ -58,14 +58,31 @@
 
 <body>
   <h3> Define the meaning of the term HTML and explain the requisite parts of a simple HTML page.</h3>
-  <p> HTML stands for Hypertext Markup Language. "html" is the root element where other tags specify different elements. For example "title" refers to the information about the document and "body" refers to the content within the page. "h1" refers ti the elements headers and one of the most common, "p" is a paragraph element. </p>
+  <p> Hyper Text Markup Language ''!doctype html'''
+
+''html lang="en"''
+''head''' // contains meta data
+  ''meta charset="utf-8"''
+
+  ''title''The HTML5 Herald''/title''' //title
+  ''meta name="description" content="The HTML5 Herald"''
+  ''meta name="author" content="SitePoint"''
+
+  ''link rel="stylesheet" href="css/styles.css?v=1.0"''
+
+''/head''' // closing head tag
+
+''body> //between the body tags is where the bulk of HTML content is written
+  ''script src="js/scripts.js"''''/script'''
+''/body''
+''/html''' </p>
 
   <h3> Define Javascript Syntax and give 3 examples of this syntax.</h3>
-  <p> JavaScript is a set of rules. var a,b,c. You would declare values to these variables using for example a=1,b=2,c=3. </p>
+  <p> JavaScript is a set of rules. var a,b,c. You would declare values to these variables using, for example, a=1,b=2,c=3 otherwise known as assignment. Another example is the computation of variables so var a + b + c. A third would be a declaration of the variable, for example, varx; </p>
 
   <h3> Please explain what Angular "SPA" is and why you would want to use in a web site design.
 Make sure and include all pertinent information about the SPA.</h3>
-  <p> A SPA or Single Page Application would be ideal because all of your code would load up on one page. This way, you can navagate it without constantly reloading it. </p>
+  <p> A SPA or Single Page Application would be ideal because all of your code would load up on one page. This way, you can navigate it without constantly reloading it. </p>
 
   <h3> Please explain two simple ways to include Javascript in a web page.  Please explain this in a two or three sentence answer and also demonstrate with clean code.</h3>
   <p> You can add the "script" tag in the "head" as well as the "body" tag. In the example shown, the script creates a button that when clicked, the text would change to "paragraph". Example: <a href= "https://prnt.sc/q6d53n">Click for picture example</a></p>
@@ -73,7 +90,7 @@ Make sure and include all pertinent information about the SPA.</h3>
   <h3> Please list at least five(5) HTML input elements and their purpose in a web page.</h3>
   <p> 1) "buttton" //adds a button that can be clicked</p>
   <p> 2) "color" //defines color within the input type</p>
-  <p> 3) "checkbox" //adds a checkbox that allows auser to select 0 or more options of a limited number of choices</p>
+  <p> 3) "checkbox" //adds a checkbox that allows a user to select 0 or more options of a limited number of choices</p>
   <p> 4) "email" //is a input type that should contain an email address. Some browsers can automatically validate email addresses when submitted.</p>
   <p> 5) "date" //is an input field that contains a date that may be restricted with min and max attributes.</p>
 
@@ -84,7 +101,7 @@ Make sure and include all pertinent information about the SPA.</h3>
   <p> Angular JS is an extended directive to HTML. These include the "ng" prefix and is used in code, similar to the command line. some examples are ng-app, ng-init, and ng-model which the first 2 initializes the data or application and the model binds the values of the HTML like inputs for example.</p>
 
   <h3> Please name some new HTML5 Elements and describe the various uses in short descriptive sentences or paragraphs.</h3>
-  <p> HTML5 introduces new and more specific elemnts. You can now add "header" and "footer" tags as well as "article" tags to specify what type of content is put in and how it funcitons. Media tags such as "audio" and "video" also exists to provide a even more in-depth HTML attribute element. </p>
+  <p> HTML5 introduces new and more specific elements. You can now add "header" and "footer" tags as well as "article" tags to specify what type of content is put in and how it functions. Media tags such as "audio" and "video" also exist to provide an even more in-depth HTML attribute element. </p>
 
   <h3> Angular 8 App </h3>
   <p> With the new Angular 8 app, you can now build while having the app load "automagically" as they say. It's an single page web application that allows users to code and see the visual updates to the app in real time. Angular uses Typescript language which provides class-based object-oriented programming languages and support features of server site programming languag while using different types of syntax. An Angular application is buillt out of components which forms what is called a "tree structure" with parent and child components in which you can route them to one another. A component is an independent block of an extensive system that communicates with the other building blocks of the systems using inputs and outputs. These inputs and outputs have an associated view, data, and behavior and has parent and child components that allows the components to have re-usability, secure testing, maintenance, and separation of issues. Creating new components and routing them through the "app-routing.module.ts" allows for multiple components within the web page.</p>
